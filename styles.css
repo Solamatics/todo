@@ -120,6 +120,16 @@ h1 {
         background-color: #fff;
     }
 
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #date__time {
+        text-align: center;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
     #newtask {
         width: 100%;
         display: flex;
@@ -132,11 +142,28 @@ h1 {
         width: 90%;
         background-color: white;
     }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #newtask {
+        width: 100%;
+    }
 }
 
 @media (max-width: 500px) {
     .container {
-        width: 100%;
+        width: 90%;
         background-color: white;
+    }
+
+    #newtask {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 5rem;
     }
 }
